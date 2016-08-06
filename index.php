@@ -35,7 +35,7 @@ $(document).ready(function() {
 					$progress_view.html(String(bytes_processed_ratio) + '%');
 					//アップロード終了した？
 					if ( jso.done ) {
-						$progress_view.htm('100 %');
+						$progress_view.html('100 %');
 						clearInterval(progress_watch_id);
 					}
 				}
